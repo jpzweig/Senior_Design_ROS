@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvidia/goose2/src/darknet_ros/darknet_ros/include/darknet_ros/JHPWMPCA9685.h
+cstddef
+-
+linux/i2c-dev.h
+-
+sys/ioctl.h
+-
+cstdlib
+-
+cstdio
+-
+fcntl.h
+-
+unistd.h
+-
+errno.h
+-
+
+/home/nvidia/goose2/src/darknet_ros/darknet_ros/src/JHPWMPCA9685.cpp
+JHPWMPCA9685.h
+-
+math.h
+-
+
